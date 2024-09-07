@@ -2,16 +2,13 @@ function login() {
     const modmeId = document.getElementById('modmeId').value;
     const password = document.getElementById('password').value;
     const messageDiv = document.getElementById('message');
-    const comment = document.getElementById('comment').value;
-    const commentDiv = document.getElementById('asd');
-
+ 
      
  
 
     const correctModmeId = 'akmalxon';
     const correctPassword = 'akmal_2010';
      
-    
 
 
 
@@ -22,7 +19,7 @@ function login() {
         messageDiv.style.fontWeight = 'bold'; 
         messageDiv.style.textAlign = 'center'; 
         messageDiv.textContent = 'Kirish muvaffaqiyatli! Siz spacega kirdingiz.';
-    } {
+    } else {
         messageDiv.style.color = 'red';
         messageDiv.style.fontSize = '25px'; 
         messageDiv.style.fontWeight = 'bold';
